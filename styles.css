@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+* {
+    font-family: Arimo;
+    font-weight: 400;
+}
+
+div {
+    padding-bottom: 5px;
+}
+
+.back {
+    width: 60px;
+    height: 40px;
+}
+
+.next {
+    width: 60px;
+    height: 40px;
+}
+
+a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.stretch {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px;
+}
+
+.stretch:hover {
+    transition: 0.5s;
+    padding: 30px;
+}
+
+.stretch:not(:hover) {
+    transition: 0.5s;
+}
+
+.shadow {
+    box-shadow: 3px 3px 5px rgb(197, 197, 197);
+    background-color: green;
+    padding: 15px;
+    color: white;
+    border: none;
+}
+
+.shadow:active {
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: none;
+}
+
+.stretch-button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: padding 0.15s,
+      margin 0.15s;
+  }
+
+  .stretch-button:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
